@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Italiano - Unità 2</title>
+    <!-- Inclusão do Tailwind CSS para um design moderno e responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo customizado para a fonte e cores */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a2a;
+            color: #f0f0f0;
+        }
+        /* Estilos para feedback visual nas respostas */
+        .correct {
+            background-color: #166534 !important; /* Verde escuro */
+            border-color: #22c55e !important;
+            color: white !important;
+        }
+        .incorrect {
+            background-color: #991b1b !important; /* Vermelho escuro */
+            border-color: #ef4444 !important;
+            color: white !important;
+        }
+        .option-label {
+            transition: all 0.2s ease-in-out;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4 sm:p-6 lg:p-8">
+
+    <div class="w-full max-w-3xl mx-auto">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl sm:text-4xl font-bold text-white">Quiz - Unità 2</h1>
+            <p class="text-lg text-gray-300 mt-2">Teste seus conhecimentos em italiano!</p>
+        </header>
+
+        <!-- Formulário do Quiz -->
+        <form id="quizForm" class="space-y-6">
+
+            <!-- Questão 1 -->
+            <div id="question1" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">1) Scegli l’opzione giusta: “Come va?”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q1" value="A" class="mr-3">A. Tutto a posto</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q1" value="B" class="mr-3">B. al cinema</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q1" value="C" class="mr-3">C. in macchina</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q1" value="D" class="mr-3">D. 32 anni</label>
+                </div>
+            </div>
+
+            <!-- Questão 2 -->
+            <div id="question2" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">2) Completa la frase “Carlo … da Roma”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q2" value="A" class="mr-3">A. va</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q2" value="B" class="mr-3">B. viene</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q2" value="C" class="mr-3">C. studia</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q2" value="D" class="mr-3">D. si chiama</label>
+                </div>
+            </div>
+
+            <!-- Questão 3 -->
+            <div id="question3" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">3) Completa la la frase “Carlo … l’attore”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q3" value="A" class="mr-3">A. fare</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q3" value="B" class="mr-3">B. fai</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q3" value="C" class="mr-3">C. fa</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q3" value="D" class="mr-3">D. lavori</label>
+                </div>
+            </div>
+
+            <!-- Questão 4 -->
+            <div id="question4" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">4) Completa la frase “Lei … Federica”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q4" value="A" class="mr-3">A. è</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q4" value="B" class="mr-3">B. sei</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q4" value="C" class="mr-3">C. viene</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q4" value="D" class="mr-3">D. vieni</label>
+                </div>
+            </div>
+
+            <!-- Questão 5 -->
+            <div id="question5" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">5) Scegli l’opzione giusta:”Di dov’è Carlo?</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q5" value="A" class="mr-3">A. Fa l’attore</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q5" value="B" class="mr-3">B. È di Firenze</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q5" value="C" class="mr-3">C. lavora a Firenze</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q5" value="D" class="mr-3">D. vieni di Firenze</label>
+                </div>
+            </div>
+
+            <!-- Questão 6 -->
+            <div id="question6" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">6) Completa la frase “Io sono Federica. Vivo con mio …”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q6" value="A" class="mr-3">A. figlia</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q6" value="B" class="mr-3">B. nonna</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q6" value="C" class="mr-3">C. marito</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q6" value="D" class="mr-3">D. zia</label>
+                </div>
+            </div>
+
+            <!-- Questão 7 -->
+            <div id="question7" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">7) Completa la frase “Noi … italiani”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q7" value="A" class="mr-3">A. sono</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q7" value="B" class="mr-3">B. siete</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q7" value="C" class="mr-3">C. sanno</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q7" value="D" class="mr-3">D. siamo</label>
+                </div>
+            </div>
+
+            <!-- Questão 8 -->
+            <div id="question8" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">8) Completa la frase: “Lui … mio nipote”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q8" value="A" class="mr-3">A. è</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q8" value="B" class="mr-3">B. sei</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q8" value="C" class="mr-3">C. ha</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q8" value="D" class="mr-3">D. siete</label>
+                </div>
+            </div>
+
+            <!-- Questão 9 -->
+            <div id="question9" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">9) Scegli l’alternativa corretta. “Tu sei di Roma? Sì, …. italiano.”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q9" value="A" class="mr-3">A. sono</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q9" value="B" class="mr-3">B. siamo</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q9" value="C" class="mr-3">C. sei</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q9" value="D" class="mr-3">D. siete</label>
+                </div>
+            </div>
+
+            <!-- Questão 10 -->
+            <div id="question10" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">10) Qual è il plurale di: “Lui è molto felice oggi”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q10" value="A" class="mr-3">A. Lei è molto felice oggi.</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q10" value="B" class="mr-3">B. Voi siete molto felici oggi.</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q10" value="C" class="mr-3">C. Loro sono molto felici oggi</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q10" value="D" class="mr-3">D. Noi siamo molto felici oggi.</label>
+                </div>
+            </div>
+
+            <!-- Questão 11 -->
+            <div id="question11" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">11) Qual è il singolare di “Voi siete a casa”.</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q11" value="A" class="mr-3">A. Tu sei a casa</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q11" value="B" class="mr-3">B. Loro sono a casa</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q11" value="C" class="mr-3">C. Lei è a casa</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q11" value="D" class="mr-3">D. Noi siamo a casa</label>
+                </div>
+            </div>
+
+            <!-- Questão 12 -->
+            <div id="question12" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">12) Completa la frase “ … … il fratello di Lorenzo”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q12" value="A" class="mr-3">A. Loro sono</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q12" value="B" class="mr-3">B. Questi sono</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q12" value="C" class="mr-3">C. Questa è</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q12" value="D" class="mr-3">D. Questo è</label>
+                </div>
+            </div>
+
+            <!-- Questão 13 -->
+            <div id="question13" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">13) Scegli l’opzione giusta: “Qual è il tuo stato civile?”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q13" value="A" class="mr-3">A. Io sono sposato</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q13" value="B" class="mr-3">B. Io ho un fratello</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q13" value="C" class="mr-3">C. Io sono di Roma</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q13" value="D" class="mr-3">D. Tu sei single</label>
+                </div>
+            </div>
+
+            <!-- Questão 14 -->
+            <div id="question14" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">14) Scegli l’opzione giusta: “Come si chiamano i tuoi genitori?”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q14" value="A" class="mr-3">A. Lui si chiama Marco</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q14" value="B" class="mr-3">B. Loro si chiamano Mirela e Ronaldo</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q14" value="C" class="mr-3">C. Voi vi chiamate Mirela e Ronaldo</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q14" value="D" class="mr-3">D. Loro vengono da Roma</label>
+                </div>
+            </div>
+
+            <!-- Questão 15 -->
+            <div id="question15" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">15) Completa la frase “Mio padre … l’ingegnere”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q15" value="A" class="mr-3">A. ha fatto</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q15" value="B" class="mr-3">B. fai</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q15" value="C" class="mr-3">C. fa</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q15" value="D" class="mr-3">D. fate</label>
+                </div>
+            </div>
+
+            <!-- Questão 16 -->
+            <div id="question16" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">16) Completa la frase “Lei … una ragazza molto simpatica”.</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q16" value="A" class="mr-3">A. è</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q16" value="B" class="mr-3">B. hai</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q16" value="C" class="mr-3">C. sei</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q16" value="D" class="mr-3">D. siete</label>
+                </div>
+            </div>
+
+            <!-- Questão 17 -->
+            <div id="question17" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">17) Scegli l’opzione giusta: “Siete in Italia per lavoro o per turismo?”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q17" value="A" class="mr-3">A. Siamo in Italia per lavoro</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q17" value="B" class="mr-3">B. Sono in Italia per lavoro</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q17" value="C" class="mr-3">C. Siete in Italia per lavoro</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q17" value="D" class="mr-3">D. Sei in Italia per lavoro</label>
+                </div>
+            </div>
+
+            <!-- Questão 18 -->
+            <div id="question18" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">18) Scegli l’alternativa corretta. “ … è Carlo?” “Lui è il fratello di Marco”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q18" value="A" class="mr-3">A. Che</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q18" value="B" class="mr-3">B. Quale</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q18" value="C" class="mr-3">C. Chi</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q18" value="D" class="mr-3">D. Cosa</label>
+                </div>
+            </div>
+
+            <!-- Questão 19 -->
+            <div id="question19" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">19) Scegli l’alternativa giusta. “Quanti anni hai?”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q19" value="A" class="mr-3">A. Ho 22 anni</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q19" value="B" class="mr-3">B. Hai 22 anni</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q19" value="C" class="mr-3">C. Ha 22 anni</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q19" value="D" class="mr-3">D. Avete 22 anni</label>
+                </div>
+            </div>
+
+            <!-- Questão 20 -->
+            <div id="question20" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">20) Scegli l’alternativa giusta.”Dove vivi?”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q20" value="A" class="mr-3">A. Abito a Venezia</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q20" value="B" class="mr-3">B. Viene da Venezia</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q20" value="C" class="mr-3">C. Viviamo a Venezia</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q20" value="D" class="mr-3">D. Vivete a Venezia</label>
+                </div>
+            </div>
+
+            <!-- Questão 21 -->
+            <div id="question21" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">21) Completa la frase. “Ti piace l’Italia?” “ … …. molto”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q21" value="A" class="mr-3">A. Mi piaccio</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q21" value="B" class="mr-3">B. Ti piace</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q21" value="C" class="mr-3">C. Mi piace</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q21" value="D" class="mr-3">D. Ci piacciono</label>
+                </div>
+            </div>
+
+            <!-- Questão 22 -->
+            <div id="question22" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">22) Completa la frase (piace a lui la lingua italiana) “ … piace la lingua italiana.</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q22" value="A" class="mr-3">A. Mi</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q22" value="B" class="mr-3">B. Ti</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q22" value="C" class="mr-3">C. Gli</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q22" value="D" class="mr-3">D. Le</label>
+                </div>
+            </div>
+
+            <!-- Questão 23 -->
+            <div id="question23" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">23) Scegli l’opzione giusta:”Dove vivono e che cosa sono?”</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q23" value="A" class="mr-3">A. Loro vivono a Firenze e sono insegnanti.</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q23" value="B" class="mr-3">B. Loro vivono in Firenze e sono insegnanti.</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q23" value="C" class="mr-3">C. Io vivo a Firenze e sono insegnante.</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q23" value="D" class="mr-3">D. Voi vivete a Firenze e sono insegnanti.</label>
+                </div>
+            </div>
+
+            <!-- Questão 24 -->
+            <div id="question24" class="bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg">
+                <p class="font-semibold text-lg mb-4">24) Completa frase “Voi … molto tempo libero”.</p>
+                <div class="space-y-3">
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q24" value="A" class="mr-3">A. hanno</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q24" value="B" class="mr-3">B. hai</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q24" value="C" class="mr-3">C. ha</label>
+                    <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer"><input type="radio" name="q24" value="D" class="mr-3">D. avete</label>
+                </div>
+            </div>
+
+            <!-- Botão de Envio -->
+            <div class="flex justify-end mt-8">
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    Responder
+                </button>
+            </div>
+        </form>
+        
+        <!-- Área de Resultados (inicialmente oculta) -->
+        <div id="results" class="hidden mt-10 bg-gray-800 border border-gray-700 p-8 rounded-lg text-center">
+            <h2 class="text-3xl font-bold mb-4">Risultati</h2>
+            <p id="score" class="text-2xl mb-6"></p>
+            <p id="feedback" class="text-lg mb-6"></p>
+            <button id="retryButton" class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-8 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                Tentar Novamente
+            </button>
+        </div>
+
+    </div>
+
+    <script>
+        // Lógica do Quiz em JavaScript
+
+        // Gabarito com as respostas corretas
+        const correctAnswers = {
+            q1: 'A', q2: 'B', q3: 'C', q4: 'A', q5: 'B', q6: 'C',
+            q7: 'D', q8: 'A', q9: 'A', q10: 'C', q11: 'A', q12: 'D',
+            q13: 'A', q14: 'B', q15: 'C', q16: 'A', q17: 'A', q18: 'C',
+            q19: 'A', q20: 'A', q21: 'C', q22: 'C', q23: 'A', q24: 'D'
+        };
+
+        const quizForm = document.getElementById('quizForm');
+        const resultsDiv = document.getElementById('results');
+        const scoreEl = document.getElementById('score');
+        const feedbackEl = document.getElementById('feedback');
+        const retryButton = document.getElementById('retryButton');
+
+        quizForm.addEventListener('submit', function(event) {
+            // Previne o comportamento padrão do formulário (recarregar a página)
+            event.preventDefault();
+
+            let score = 0;
+            const totalQuestions = Object.keys(correctAnswers).length;
+            const formData = new FormData(quizForm);
+
+            // Desabilita todos os inputs para prevenir mudanças após o envio
+            const inputs = quizForm.querySelectorAll('input[type="radio"]');
+            inputs.forEach(input => input.disabled = true);
+
+            // Loop para verificar cada resposta
+            for (let i = 1; i <= totalQuestions; i++) {
+                const questionName = 'q' + i;
+                const userAnswer = formData.get(questionName);
+                const correctAnswer = correctAnswers[questionName];
+                const questionDiv = document.getElementById('question' + i);
+                const optionLabels = questionDiv.querySelectorAll('.option-label');
+
+                optionLabels.forEach(label => {
+                    const input = label.querySelector('input');
+                    // Mostra a resposta correta em verde
+                    if (input.value === correctAnswer) {
+                        label.classList.add('correct');
+                    }
+                    // Se o usuário respondeu e errou, mostra a resposta dele em vermelho
+                    if (userAnswer && userAnswer !== correctAnswer && input.value === userAnswer) {
+                        label.classList.add('incorrect');
+                    }
+                });
+
+                if (userAnswer === correctAnswer) {
+                    score++;
+                }
+            }
+
+            // Exibe os resultados
+            scoreEl.textContent = `Você acertou ${score} de ${totalQuestions} questões!`;
+
+            // Fornece um feedback com base na pontuação
+            if (score === totalQuestions) {
+                feedbackEl.textContent = "Congratulazioni! Você é um mestre do italiano!";
+            } else if (score >= totalQuestions / 2) {
+                feedbackEl.textContent = "Molto bene! Continue praticando.";
+            } else {
+                feedbackEl.textContent = "Non ti arrendere! Estudar mais um pouco vai fazer a diferença.";
+            }
+
+            // Mostra a seção de resultados e esconde o formulário
+            resultsDiv.classList.remove('hidden');
+            quizForm.classList.add('hidden');
+            window.scrollTo(0, 0); // Rola a página para o topo para ver o resultado
+        });
+
+        // Funcionalidade do botão "Tentar Novamente"
+        retryButton.addEventListener('click', function() {
+            // Reseta o formulário
+            quizForm.reset();
+            
+            // Habilita os inputs novamente
+            const inputs = quizForm.querySelectorAll('input[type="radio"]');
+            inputs.forEach(input => input.disabled = false);
+
+            // Remove as classes de feedback (correto/incorreto)
+            const allLabels = document.querySelectorAll('.option-label');
+            allLabels.forEach(label => {
+                label.classList.remove('correct', 'incorrect');
+            });
+            
+            // Esconde os resultados e mostra o formulário novamente
+            resultsDiv.classList.add('hidden');
+            quizForm.classList.remove('hidden');
+        });
+
+    </script>
+
+</body>
+</html>
