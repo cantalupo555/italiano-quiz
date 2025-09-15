@@ -1,0 +1,160 @@
+{
+  "title": "Quiz - Unità 5",
+  "subtitle": "Teste seus conhecimentos em italiano!",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Qual è il modo più cortese di chiedere un caffè al bar?",
+      "options": [
+        {"value": "A", "text": "Voglio un caffè."},
+        {"value": "B", "text": "Vorrei un caffè."},
+        {"value": "C", "text": "Vuole un caffè."},
+        {"value": "D", "text": "Vogliamo un caffè."}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 2,
+      "text": "In quale delle alternative è presente la forma di cortesia (dare da Lei)?",
+      "options": [
+        {"value": "A", "text": "Può farmi un caffè?"},
+        {"value": "B", "text": "Mi puoi dare un caffè?"},
+        {"value": "C", "text": "Di dove sei?"},
+        {"value": "D", "text": "Grazie a te."}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 3,
+      "text": "Completa la frase: ___ la fermata dell’autobus più vicina?",
+      "options": [
+        {"value": "A", "text": "C’è"},
+        {"value": "B", "text": "Qui"},
+        {"value": "C", "text": "Dov’è"},
+        {"value": "D", "text": "Come"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 4,
+      "text": "Scegli la risposta sbagliata: Sono le 14:30:",
+      "options": [
+        {"value": "A", "text": "Sono le quattordici e mezza"},
+        {"value": "B", "text": "Sono le due e trenta del pomeriggio"},
+        {"value": "C", "text": "Sono le quattordici e mezzo"},
+        {"value": "D", "text": "Sono le due e mezza del pomeriggio"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 5,
+      "text": "Scegli l’opzione giusta: Che ore sono?",
+      "options": [
+        {"value": "A", "text": "Sono le tredici."},
+        {"value": "B", "text": "Sono alle quindici."},
+        {"value": "C", "text": "Sono a quattordici."},
+        {"value": "D", "text": "è le quattordici meno un quarto"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 6,
+      "text": "Cosa significa “buona serata”?",
+      "options": [
+        {"value": "A", "text": "Un saluto quando una persona arriva e la sera va avanti"},
+        {"value": "B", "text": "Un saluto quando una persona sta andando via e la sera va avanti."},
+        {"value": "C", "text": "Un saluto quando trovo una persona e dopo va a letto."},
+        {"value": "D", "text": "Un saluto quando una persona va via e la giornata va avanti."}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 7,
+      "text": "In quale frase non c’è un invito:",
+      "options": [
+        {"value": "A", "text": "Che ne dici di andare al cinema stasera?"},
+        {"value": "B", "text": "Andiamo a prendere un gelato?"},
+        {"value": "C", "text": "Che ne pensi di venire da me domani?"},
+        {"value": "D", "text": "Vai a prendere un caffè!"}
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 8,
+      "text": "In quale opzione il verbo “offrire” viene coniugato in modo giusto?",
+      "options": [
+        {"value": "A", "text": "Mi piace uscire con te, perché ogni volta tu mi offro un gelato."},
+        {"value": "B", "text": "Che ne dici se offeriamo aiuto a quella coppia?"},
+        {"value": "C", "text": "Dai! Facciamo un giro. Ti offro un caffè."},
+        {"value": "D", "text": "Mi piace essere gentile, per questo io offre aiuto agli altri."}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 9,
+      "text": "Nella frase “Piace a lui il cioccolato”, la forma atona di “a lui” è:",
+      "options": [
+        {"value": "A", "text": "Le piace il cioccolato."},
+        {"value": "B", "text": "Ci piace il cioccolato."},
+        {"value": "C", "text": "Gli piace il cioccolato."},
+        {"value": "D", "text": "A loro piace il cioccolato."}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 10,
+      "text": "Scegli l’opzione giusta:",
+      "options": [
+        {"value": "A", "text": "Mi piace gli stivali neri."},
+        {"value": "B", "text": "Mi piacciono le scarpe rosse."},
+        {"value": "C", "text": "Mi piacciono il cielo blue."},
+        {"value": "D", "text": "Mi piace le stelle in cielo."}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 11,
+      "text": "Qual è l’opposto di “vicino”?",
+      "options": [
+        {"value": "A", "text": "affianco"},
+        {"value": "B", "text": "lontano"},
+        {"value": "C", "text": "qui"},
+        {"value": "D", "text": "accanto"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 12,
+      "text": "Leggi le affermazioni e scegli la risposta giusta:<br>I - Per fare un invito posso iniziare la frase con: “Che ne dici di…”, “Ti va di…”, “Che ne pensi di…”.<br>II - Il verbo piacere è un verbo molto particolare, perché può essere usato solo al singolare, come nelle frasi: “Mi piace la birra” oppure “Mi piace le macchine veloci”<br>III - Posso usare il verbo esserci nella coniugazione “c’è” o “ci sono” per chiedere un’informazione.",
+      "options": [
+        {"value": "A", "text": "Tutte le affermazioni sono corrette."},
+        {"value": "B", "text": "Solo l’affermazione I è corretta."},
+        {"value": "C", "text": "Le affermazioni I e III sono corrette."},
+        {"value": "D", "text": "Solo l’affermazione II è corretta."}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 13,
+      "text": "Scegli l’opzione giusta:",
+      "options": [
+        {"value": "A", "text": "Dov’è l’albergo?"},
+        {"value": "B", "text": "Dove’è l’albergo"},
+        {"value": "C", "text": "Dove è l’albergo?"},
+        {"value": "D", "text": "Do’vè l’albergo?"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 14,
+      "text": "Scegli la risposta corretta:<br>I - Sono le tre meno un quarto./Sono le due e quarantacinque.<br>II - Sono le tre e quindici./Sono le tre e un quarto.<br>III - Sono le tre e mezzo./Sono le tre e trenta.",
+      "options": [
+        {"value": "A", "text": "Solo le I e II sono corrette."},
+        {"value": "B", "text": "Solo le II e III sono corrette."},
+        {"value": "C", "text": "Solo le I e III sono corrette."},
+        {"value": "D", "text": "Sono tutte sbagliate."}
+      ],
+      "correct": "A"
+    }
+  ]
+}

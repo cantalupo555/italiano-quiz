@@ -1,0 +1,171 @@
+{
+  "title": "Quiz - Unità 4",
+  "subtitle": "Teste seus conhecimentos em italiano!",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Cosa significa “cosa mi racconti di bello?”",
+      "options": [
+        {"value": "A", "text": "O que tem de bonito?"},
+        {"value": "B", "text": "Me contam coisas belas?"},
+        {"value": "C", "text": "Quais são as novidades?"},
+        {"value": "D", "text": "Me acha bonito?"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 2,
+      "text": "Un sinonimo per “giornata impegnativa” è:",
+      "options": [
+        {"value": "A", "text": "giornata con molta cosa da fare."},
+        {"value": "B", "text": "giornata tranquilla."},
+        {"value": "C", "text": "giornata soleggiata."},
+        {"value": "D", "text": "giornata felice"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 3,
+      "text": "Scegli l’opzione giusta:: “Hai una giornata molto stancante?”",
+      "options": [
+        {"value": "A", "text": "No, non la voglio, grazie!"},
+        {"value": "B", "text": "Sì, ho poche cose da fare e una giornata tranquilla."},
+        {"value": "C", "text": "Sono contenta di rivederti"},
+        {"value": "D", "text": "Sì, la mia routine quotidiana è normalmente piena."}
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 4,
+      "text": "Sinonimo di “tutti i giorni” è:",
+      "options": [
+        {"value": "A", "text": "tutto il giorno"},
+        {"value": "B", "text": "ogni giorno"},
+        {"value": "C", "text": "una giornata intera"},
+        {"value": "D", "text": "un giorno pieno."}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 5,
+      "text": "Scegli l’opzione giusta:: “Cosa ti piace fare nel tuo tempo libero?”",
+      "options": [
+        {"value": "A", "text": "Ti piace ballare."},
+        {"value": "B", "text": "Mi piace studiare."},
+        {"value": "C", "text": "Si piace cucinare."},
+        {"value": "D", "text": "Ci piace uscire."}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 6,
+      "text": "La prima persona (io) del “verbo uscire”al presente indicativo è?",
+      "options": [
+        {"value": "A", "text": "va"},
+        {"value": "B", "text": "esco"},
+        {"value": "C", "text": "finisci"},
+        {"value": "D", "text": "mangiamo"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 7,
+      "text": "Organizza a frase: in lavora azienda di grande una assicurazioni lui",
+      "options": [
+        {"value": "A", "text": "Lavora in una grande azienda lui di assicurazioni."},
+        {"value": "B", "text": "In una grande assicurazioni di azienda lavora lui."},
+        {"value": "C", "text": "Grande di assicurazioni in una azienda lui lavora."},
+        {"value": "D", "text": "Lui lavora in una grande azienda di assicurazioni."}
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 8,
+      "text": "La domanda giusta per la risposta “Oggi pranzo a mezzogiorno” è:",
+      "options": [
+        {"value": "A", "text": "Che ore sono?"},
+        {"value": "B", "text": "A che ora pranziamo oggi?"},
+        {"value": "C", "text": "A che ora pranzo oggi?"},
+        {"value": "D", "text": "A che ora pranzi oggi?"}
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 9,
+      "text": "Cosa significa “menù fisso”?",
+      "options": [
+        {"value": "A", "text": "menù appeso sulla parete."},
+        {"value": "B", "text": "menù con prezzi bassi"},
+        {"value": "C", "text": "menù con prezzo unico includendo tutti i piatti."},
+        {"value": "D", "text": "menù con la bevanda."}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 10,
+      "text": "Scegli la coniugazione giusta:: “Dobbiamo studiare. Domani ______ un esame all’Università”. (verbo avere)",
+      "options": [
+        {"value": "A", "text": "abbiamo"},
+        {"value": "B", "text": "avete"},
+        {"value": "C", "text": "hanno"},
+        {"value": "D", "text": "avere"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 11,
+      "text": "Sinonimo di “perché”",
+      "options": [
+        {"value": "A", "text": "dov’è"},
+        {"value": "B", "text": "com’è"},
+        {"value": "C", "text": "come mai"},
+        {"value": "D", "text": "per chi"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 12,
+      "text": "Nella frase: “Andiamo al mare e poi passiamo dai miei”, cosa vuole dire “dai miei”:",
+      "options": [
+        {"value": "A", "text": "passiamo a vedere i miei figli."},
+        {"value": "B", "text": "passiamo a trovare i miei amici."},
+        {"value": "C", "text": "passiamo a parlare con i miei suoceri."},
+        {"value": "D", "text": "passiamo nella casa dai miei genitori."}
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 13,
+      "text": "Scegli l’opzione giusta: Io di solito ___ fino a tardi, ___ colazione e ___ dai miei.",
+      "options": [
+        {"value": "A", "text": "dormo, fanno, vado"},
+        {"value": "B", "text": "dormo, faccio, vado"},
+        {"value": "C", "text": "dorme, faccio, va"},
+        {"value": "D", "text": "dorme, fa, va"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 14,
+      "text": "Cosa fa Giulia ogni sabato?",
+      "options": [
+        {"value": "A", "text": "Va a fare una corsa."},
+        {"value": "B", "text": "Passeggi da sola al parco."},
+        {"value": "C", "text": "Dormiamo a casa."},
+        {"value": "D", "text": "Vai in viaggio."}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 15,
+      "text": "Il giorno della settimana che viene appena dopo martedì è:",
+      "options": [
+        {"value": "A", "text": "venerdì"},
+        {"value": "B", "text": "lunedì"},
+        {"value": "C", "text": "giovedì"},
+        {"value": "D", "text": "mercoledì"}
+      ],
+      "correct": "D"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "title": "Quiz - Unità 6",
+  "subtitle": "Teste seus conhecimentos em italiano!",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Qual è il gerundio del verbo “mangiare”?",
+      "options": [
+        {"value": "A", "text": "mangiando"},
+        {"value": "B", "text": "mangiato"},
+        {"value": "C", "text": "mangiare"},
+        {"value": "D", "text": "mangi"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 2,
+      "text": "Completa la frase: “Sto ___ (leggere) un libro molto interessante.”",
+      "options": [
+        {"value": "A", "text": "leggendo"},
+        {"value": "B", "text": "leggere"},
+        {"value": "C", "text": "letto"},
+        {"value": "D", "text": "leggi"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 3,
+      "text": "Qual è la forma corretta della frase: “Loro stanno ___ (correre) nel parco.”",
+      "options": [
+        {"value": "A", "text": "correndo"},
+        {"value": "B", "text": "correre"},
+        {"value": "C", "text": "corsi"},
+        {"value": "D", "text": "corso"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 4,
+      "text": "Qual è il gerundio del verbo “dormire”?",
+      "options": [
+        {"value": "A", "text": "dormendo"},
+        {"value": "B", "text": "dormito"},
+        {"value": "C", "text": "dormire"},
+        {"value": "D", "text": "dorme"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 5,
+      "text": "Completa la frase: “Sto per ___ (uscire) di casa.”",
+      "options": [
+        {"value": "A", "text": "uscendo"},
+        {"value": "B", "text": "uscire"},
+        {"value": "C", "text": "uscito"},
+        {"value": "D", "text": "esce"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 6,
+      "text": "Qual è il gerundio del verbo “scrivere”?",
+      "options": [
+        {"value": "A", "text": "scrivendo"},
+        {"value": "B", "text": "scritto"},
+        {"value": "C", "text": "scrivere"},
+        {"value": "D", "text": "scrive"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 7,
+      "text": "Completa la frase: “Stiamo ___ (guardare) un film.”",
+      "options": [
+        {"value": "A", "text": "guardando"},
+        {"value": "B", "text": "guardare"},
+        {"value": "C", "text": "guardato"},
+        {"value": "D", "text": "guardi"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 8,
+      "text": "Qual è la forma corretta della frase: “Lui sta ___ (telefonare) a sua madre.”",
+      "options": [
+        {"value": "A", "text": "telefonando"},
+        {"value": "B", "text": "telefonare"},
+        {"value": "C", "text": "telefonato"},
+        {"value": "D", "text": "telefoni"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 9,
+      "text": "Qual è il gerundio del verbo “fare”?",
+      "options": [
+        {"value": "A", "text": "facendo"},
+        {"value": "B", "text": "fatto"},
+        {"value": "C", "text": "fare"},
+        {"value": "D", "text": "fai"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 10,
+      "text": "Completa la frase: “Sto per ___ (cucinare) la cena.”",
+      "options": [
+        {"value": "A", "text": "cucinendo"},
+        {"value": "B", "text": "cucinare"},
+        {"value": "C", "text": "cucinato"},
+        {"value": "D", "text": "cucini"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 11,
+      "text": "Qual è la forma corretta della frase: “Noi stiamo ___ (studiare) per l’esame.”",
+      "options": [
+        {"value": "A", "text": "studiando"},
+        {"value": "B", "text": "studiare"},
+        {"value": "C", "text": "studiato"},
+        {"value": "D", "text": "studia"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 12,
+      "text": "Completa la frase: “Stanno per ___ (partire) per le vacanze.”",
+      "options": [
+        {"value": "A", "text": "partendo"},
+        {"value": "B", "text": "partire"},
+        {"value": "C", "text": "partito"},
+        {"value": "D", "text": "parti"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 13,
+      "text": "Qual è il gerundio del verbo “bere”?",
+      "options": [
+        {"value": "A", "text": "bevendo"},
+        {"value": "B", "text": "bevuto"},
+        {"value": "C", "text": "bere"},
+        {"value": "D", "text": "beve"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 14,
+      "text": "Completa la frase: “Lei sta ___ (parlare) al telefono.”",
+      "options": [
+        {"value": "A", "text": "parlando"},
+        {"value": "B", "text": "parlare"},
+        {"value": "C", "text": "parlato"},
+        {"value": "D", "text": "parla"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 15,
+      "text": "Qual è il gerundio del verbo “vedere”?",
+      "options": [
+        {"value": "A", "text": "vedendo"},
+        {"value": "B", "text": "visto"},
+        {"value": "C", "text": "vedere"},
+        {"value": "D", "text": "vede"}
+      ],
+      "correct": "A"
+    }
+  ]
+}

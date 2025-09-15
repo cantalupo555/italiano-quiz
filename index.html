@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Italiano - Unità Selezionata</title>
+    <!-- Inclusão do Tailwind CSS para um design moderno e responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo customizado para a fonte e cores */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a2a;
+            color: #f0f0f0;
+        }
+        /* Estilos para feedback visual nas respostas */
+        .correct {
+            background-color: #166534 !important; /* Verde escuro */
+            border-color: #22c55e !important;
+            color: white !important;
+        }
+        .incorrect {
+            background-color: #991b1b !important; /* Vermelho escuro */
+            border-color: #ef4444 !important;
+            color: white !important;
+        }
+        .option-label {
+            transition: all 0.2s ease-in-out;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4 sm:p-6 lg:p-8">
+    <div class="w-full max-w-4xl mx-auto">
+        <!-- Menu de Navegação -->
+        <nav class="mb-8 bg-gray-800 border border-gray-700 rounded-lg p-4">
+            <h2 class="text-xl font-bold text-white mb-4">Selecione a Unità</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <button onclick="loadUnit(1)" class="unit-btn bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition">Unità 1</button>
+                <button onclick="loadUnit(2)" class="unit-btn bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition">Unità 2</button>
+                <button onclick="loadUnit(3)" class="unit-btn bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition">Unità 3</button>
+                <button onclick="loadUnit(4)" class="unit-btn bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition">Unità 4</button>
+                <button onclick="loadUnit(5)" class="unit-btn bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition">Unità 5</button>
+                <button onclick="loadUnit(6)" class="unit-btn bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition">Unità 6</button>
+            </div>
+        </nav>
+
+        <!-- Header Dinâmico -->
+        <header id="quizHeader" class="text-center mb-8 hidden">
+            <h1 id="quizTitle" class="text-3xl sm:text-4xl font-bold text-white"></h1>
+            <p id="quizSubtitle" class="text-lg text-gray-300 mt-2"></p>
+        </header>
+
+        <!-- Formulário do Quiz (Dinâmico) -->
+        <form id="quizForm" class="space-y-6 hidden">
+            <div id="questionsContainer"></div>
+            <div class="flex justify-end mt-8">
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    Responder
+                </button>
+            </div>
+        </form>
+
+        <!-- Área de Resultados (inicialmente oculta) -->
+        <div id="results" class="hidden mt-10 bg-gray-800 border border-gray-700 p-8 rounded-lg text-center">
+            <h2 class="text-3xl font-bold mb-4">Risultati</h2>
+            <p id="score" class="text-2xl mb-6"></p>
+            <p id="feedback" class="text-lg mb-6"></p>
+            <button id="retryButton" class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-8 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                Tentar Novamente
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal de Alerta -->
+    <div id="alertModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="bg-gray-800 border border-gray-700 p-8 rounded-lg text-center shadow-lg max-w-sm w-full">
+            <h2 class="text-2xl font-bold mb-4 text-white">Atenção!</h2>
+            <p id="alertMessage" class="text-lg mb-6 text-gray-300">Por favor, responda todas as questões antes de finalizar o quiz.</p>
+            <button id="closeModalButton" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                Entendi
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let currentUnitData = null;
+        let correctAnswers = {};
+
+        // Função para carregar dados da unidade
+        async function loadUnit(unitNumber) {
+            try {
+                const response = await fetch(`data/unita${unitNumber}.json`);
+                if (!response.ok) throw new Error(`Erro ao carregar Unità ${unitNumber}`);
+                currentUnitData = await response.json();
+
+                // Atualizar header
+                document.getElementById('quizTitle').textContent = currentUnitData.title;
+                document.getElementById('quizSubtitle').textContent = currentUnitData.subtitle;
+                document.getElementById('quizHeader').classList.remove('hidden');
+
+                // Preparar gabarito
+                correctAnswers = {};
+                currentUnitData.questions.forEach(q => {
+                    correctAnswers[`q${q.id}`] = q.correct;
+                });
+
+                // Renderizar perguntas
+                renderQuestions();
+
+                // Mostrar form e esconder results
+                document.getElementById('quizForm').classList.remove('hidden');
+                document.getElementById('results').classList.add('hidden');
+                window.scrollTo(0, 0);
+            } catch (error) {
+                alert(`Erro ao carregar Unità ${unitNumber}: ${error.message}`);
+            }
+        }
+
+        // Função para renderizar perguntas
+        function renderQuestions() {
+            const container = document.getElementById('questionsContainer');
+            container.innerHTML = '';
+
+            currentUnitData.questions.forEach(question => {
+                const questionDiv = document.createElement('div');
+                questionDiv.id = `question${question.id}`;
+                questionDiv.className = 'bg-gray-800/50 border border-gray-700 p-6 rounded-lg shadow-lg';
+
+                questionDiv.innerHTML = `
+                    <p class="font-semibold text-lg mb-4">${question.id}) ${question.text}</p>
+                    <div class="space-y-3">
+                        ${question.options.map(option => `
+                            <label class="option-label block w-full p-4 rounded-md border border-gray-600 hover:bg-gray-700 cursor-pointer">
+                                <input type="radio" name="q${question.id}" value="${option.value}" class="mr-3">${option.value}. ${option.text}
+                            </label>
+                        `).join('')}
+                    </div>
+                `;
+
+                container.appendChild(questionDiv);
+            });
+        }
+
+        // Elementos DOM
+        const quizForm = document.getElementById('quizForm');
+        const resultsDiv = document.getElementById('results');
+        const scoreEl = document.getElementById('score');
+        const feedbackEl = document.getElementById('feedback');
+        const retryButton = document.getElementById('retryButton');
+        const alertModal = document.getElementById('alertModal');
+        const closeModalButton = document.getElementById('closeModalButton');
+
+        // Event listener para submit
+        quizForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const totalQuestions = Object.keys(correctAnswers).length;
+            const formData = new FormData(quizForm);
+            const answeredQuestionsCount = [...formData.keys()].filter(key => key.startsWith('q')).length;
+
+            if (answeredQuestionsCount < totalQuestions) {
+                alertModal.classList.remove('hidden');
+                return;
+            }
+
+            let score = 0;
+
+            // Desabilitar inputs
+            const inputs = quizForm.querySelectorAll('input[type="radio"]');
+            inputs.forEach(input => input.disabled = true);
+
+            // Verificar respostas
+            currentUnitData.questions.forEach(question => {
+                const questionName = `q${question.id}`;
+                const userAnswer = formData.get(questionName);
+                const correctAnswer = question.correct;
+                const questionDiv = document.getElementById(`question${question.id}`);
+                const optionLabels = questionDiv.querySelectorAll('.option-label');
+
+                optionLabels.forEach(label => {
+                    const input = label.querySelector('input');
+                    if (input.value === correctAnswer) {
+                        label.classList.add('correct');
+                    }
+                    if (userAnswer && userAnswer !== correctAnswer && input.value === userAnswer) {
+                        label.classList.add('incorrect');
+                    }
+                });
+
+                if (userAnswer === correctAnswer) {
+                    score++;
+                }
+            });
+
+            // Exibir resultados
+            scoreEl.textContent = `Você acertou ${score} de ${totalQuestions} questões!`;
+
+            if (score === totalQuestions) {
+                feedbackEl.textContent = "Congratulazioni! Você é um mestre do italiano!";
+            } else if (score >= totalQuestions / 2) {
+                feedbackEl.textContent = "Molto bene! Continue praticando.";
+            } else {
+                feedbackEl.textContent = "Non ti arrendere! Estudar mais um pouco vai fazer a diferença.";
+            }
+
+            resultsDiv.classList.remove('hidden');
+            quizForm.classList.add('hidden');
+            window.scrollTo(0, 0);
+        });
+
+        // Retry button
+        retryButton.addEventListener('click', function() {
+            quizForm.reset();
+            const inputs = quizForm.querySelectorAll('input[type="radio"]');
+            inputs.forEach(input => input.disabled = false);
+            const allLabels = document.querySelectorAll('.option-label');
+            allLabels.forEach(label => {
+                label.classList.remove('correct', 'incorrect');
+            });
+            resultsDiv.classList.add('hidden');
+            quizForm.classList.remove('hidden');
+        });
+
+        // Close modal
+        closeModalButton.addEventListener('click', function() {
+            alertModal.classList.add('hidden');
+        });
+    </script>
+</body>
+</html>

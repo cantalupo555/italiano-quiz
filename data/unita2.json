@@ -1,0 +1,270 @@
+{
+  "title": "Quiz - Unità 2",
+  "subtitle": "Teste seus conhecimentos em italiano!",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Scegli l’opzione giusta: “Come va?”",
+      "options": [
+        {"value": "A", "text": "Tutto a posto"},
+        {"value": "B", "text": "al cinema"},
+        {"value": "C", "text": "in macchina"},
+        {"value": "D", "text": "32 anni"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 2,
+      "text": "Completa la frase “Carlo … da Roma”",
+      "options": [
+        {"value": "A", "text": "va"},
+        {"value": "B", "text": "viene"},
+        {"value": "C", "text": "studia"},
+        {"value": "D", "text": "si chiama"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 3,
+      "text": "Completa la la frase “Carlo … l’attore”",
+      "options": [
+        {"value": "A", "text": "fare"},
+        {"value": "B", "text": "fai"},
+        {"value": "C", "text": "fa"},
+        {"value": "D", "text": "lavori"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 4,
+      "text": "Completa la frase “Lei … Federica”",
+      "options": [
+        {"value": "A", "text": "è"},
+        {"value": "B", "text": "sei"},
+        {"value": "C", "text": "viene"},
+        {"value": "D", "text": "vieni"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 5,
+      "text": "Scegli l’opzione giusta:”Di dov’è Carlo?",
+      "options": [
+        {"value": "A", "text": "Fa l’attore"},
+        {"value": "B", "text": "È di Firenze"},
+        {"value": "C", "text": "lavora a Firenze"},
+        {"value": "D", "text": "vieni di Firenze"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 6,
+      "text": "Completa la frase “Io sono Federica. Vivo con mio …”",
+      "options": [
+        {"value": "A", "text": "figlia"},
+        {"value": "B", "text": "nonna"},
+        {"value": "C", "text": "marito"},
+        {"value": "D", "text": "zia"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 7,
+      "text": "Completa la frase “Noi … italiani”",
+      "options": [
+        {"value": "A", "text": "sono"},
+        {"value": "B", "text": "siete"},
+        {"value": "C", "text": "sanno"},
+        {"value": "D", "text": "siamo"}
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 8,
+      "text": "Completa la frase: “Lui … mio nipote”",
+      "options": [
+        {"value": "A", "text": "è"},
+        {"value": "B", "text": "sei"},
+        {"value": "C", "text": "ha"},
+        {"value": "D", "text": "siete"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 9,
+      "text": "Scegli l’alternativa corretta. “Tu sei di Roma? Sì, …. italiano.”",
+      "options": [
+        {"value": "A", "text": "sono"},
+        {"value": "B", "text": "siamo"},
+        {"value": "C", "text": "sei"},
+        {"value": "D", "text": "siete"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 10,
+      "text": "Qual è il plurale di: “Lui è molto felice oggi”",
+      "options": [
+        {"value": "A", "text": "Lei è molto felice oggi."},
+        {"value": "B", "text": "Voi siete molto felici oggi."},
+        {"value": "C", "text": "Loro sono molto felici oggi"},
+        {"value": "D", "text": "Noi siamo molto felici oggi."}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 11,
+      "text": "Qual è il singolare di “Voi siete a casa”.",
+      "options": [
+        {"value": "A", "text": "Tu sei a casa"},
+        {"value": "B", "text": "Loro sono a casa"},
+        {"value": "C", "text": "Lei è a casa"},
+        {"value": "D", "text": "Noi siamo a casa"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 12,
+      "text": "Completa la frase “ … … il fratello di Lorenzo”",
+      "options": [
+        {"value": "A", "text": "Loro sono"},
+        {"value": "B", "text": "Questi sono"},
+        {"value": "C", "text": "Questa è"},
+        {"value": "D", "text": "Questo è"}
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 13,
+      "text": "Scegli l’opzione giusta: “Qual è il tuo stato civile?”",
+      "options": [
+        {"value": "A", "text": "Io sono sposato"},
+        {"value": "B", "text": "Io ho un fratello"},
+        {"value": "C", "text": "Io sono di Roma"},
+        {"value": "D", "text": "Tu sei single"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 14,
+      "text": "Scegli l’opzione giusta: “Come si chiamano i tuoi genitori?”",
+      "options": [
+        {"value": "A", "text": "Lui si chiama Marco"},
+        {"value": "B", "text": "Loro si chiamano Mirela e Ronaldo"},
+        {"value": "C", "text": "Voi vi chiamate Mirela e Ronaldo"},
+        {"value": "D", "text": "Loro vengono da Roma"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 15,
+      "text": "Completa la frase “Mio padre … l’ingegnere”",
+      "options": [
+        {"value": "A", "text": "ha fatto"},
+        {"value": "B", "text": "fai"},
+        {"value": "C", "text": "fa"},
+        {"value": "D", "text": "fate"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 16,
+      "text": "Completa la frase “Lei … una ragazza molto simpatica”.",
+      "options": [
+        {"value": "A", "text": "è"},
+        {"value": "B", "text": "hai"},
+        {"value": "C", "text": "sei"},
+        {"value": "D", "text": "siete"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 17,
+      "text": "Scegli l’opzione giusta: “Siete in Italia per lavoro o per turismo?”",
+      "options": [
+        {"value": "A", "text": "Siamo in Italia per lavoro"},
+        {"value": "B", "text": "Sono in Italia per lavoro"},
+        {"value": "C", "text": "Siete in Italia per lavoro"},
+        {"value": "D", "text": "Sei in Italia per lavoro"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 18,
+      "text": "Scegli l’alternativa corretta. “ … è Carlo?” “Lui è il fratello di Marco”",
+      "options": [
+        {"value": "A", "text": "Che"},
+        {"value": "B", "text": "Quale"},
+        {"value": "C", "text": "Chi"},
+        {"value": "D", "text": "Cosa"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 19,
+      "text": "Scegli l’alternativa giusta. “Quanti anni hai?”",
+      "options": [
+        {"value": "A", "text": "Ho 22 anni"},
+        {"value": "B", "text": "Hai 22 anni"},
+        {"value": "C", "text": "Ha 22 anni"},
+        {"value": "D", "text": "Avete 22 anni"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 20,
+      "text": "Scegli l’alternativa giusta.”Dove vivi?”",
+      "options": [
+        {"value": "A", "text": "Abito a Venezia"},
+        {"value": "B", "text": "Viene da Venezia"},
+        {"value": "C", "text": "Viviamo a Venezia"},
+        {"value": "D", "text": "Vivete a Venezia"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 21,
+      "text": "Completa la frase. “Ti piace l’Italia?” “ … …. molto”",
+      "options": [
+        {"value": "A", "text": "Mi piaccio"},
+        {"value": "B", "text": "Ti piace"},
+        {"value": "C", "text": "Mi piace"},
+        {"value": "D", "text": "Ci piacciono"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 22,
+      "text": "Completa la frase (piace a lui la lingua italiana) “ … piace la lingua italiana.",
+      "options": [
+        {"value": "A", "text": "Mi"},
+        {"value": "B", "text": "Ti"},
+        {"value": "C", "text": "Gli"},
+        {"value": "D", "text": "Le"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 23,
+      "text": "Scegli l’opzione giusta:”Dove vivono e che cosa sono?”",
+      "options": [
+        {"value": "A", "text": "Loro vivono a Firenze e sono insegnanti."},
+        {"value": "B", "text": "Loro vivono in Firenze e sono insegnanti."},
+        {"value": "C", "text": "Io vivo a Firenze e sono insegnante."},
+        {"value": "D", "text": "Voi vivete a Firenze e sono insegnanti."}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 24,
+      "text": "Completa frase “Voi … molto tempo libero”.",
+      "options": [
+        {"value": "A", "text": "hanno"},
+        {"value": "B", "text": "hai"},
+        {"value": "C", "text": "ha"},
+        {"value": "D", "text": "avete"}
+      ],
+      "correct": "D"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "title": "Benvenuto al Nostro Primo Quiz di Italiano",
+  "subtitle": "Non ti preoccupare, questo test sarà facile come mangiare una pizza!",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Quale di queste parole non va bene con la domanda \"Come stai?\"",
+      "options": [
+        {"value": "A", "text": "Sto ottimo!"},
+        {"value": "B", "text": "Sono Giuseppe"},
+        {"value": "C", "text": "Più o meno"},
+        {"value": "D", "text": "Tranquillo!"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 2,
+      "text": "Quale di queste parole non è italiana?",
+      "options": [
+        {"value": "A", "text": "Giorno"},
+        {"value": "B", "text": "Croissant"},
+        {"value": "C", "text": "Lasagna"},
+        {"value": "D", "text": "Roma"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 3,
+      "text": "Il contrario di Facile è:",
+      "options": [
+        {"value": "A", "text": "No facile"},
+        {"value": "B", "text": "Non facile"},
+        {"value": "C", "text": "Difficile"},
+        {"value": "D", "text": "Infacile"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 4,
+      "text": "Qual'è la capitale d'Italia?",
+      "options": [
+        {"value": "A", "text": "Milano"},
+        {"value": "B", "text": "Venezia"},
+        {"value": "C", "text": "Napoli"},
+        {"value": "D", "text": "Roma"},
+        {"value": "E", "text": "Bologna"}
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 5,
+      "text": "È più naturale dire:",
+      "options": [
+        {"value": "A", "text": "Buongiorno"},
+        {"value": "B", "text": "Buon giorno"},
+        {"value": "C", "text": "Buono giorno"},
+        {"value": "D", "text": "Bongiorno"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 6,
+      "text": "In Italia, quando andiamo a dormire, diciamo:",
+      "options": [
+        {"value": "A", "text": "Buon letto"},
+        {"value": "B", "text": "Buonanotte"},
+        {"value": "C", "text": "Buenanotte"},
+        {"value": "D", "text": "Buonasera"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 7,
+      "text": "Qual'è il sinonimo di 'CIAO'?",
+      "options": [
+        {"value": "A", "text": "Giorno"},
+        {"value": "B", "text": "Come stai?"},
+        {"value": "C", "text": "Salve"},
+        {"value": "D", "text": "Tutto bene?"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 8,
+      "text": "Qual'è la parola SBAGLIATA?",
+      "options": [
+        {"value": "A", "text": "Piazza"},
+        {"value": "B", "text": "Pizza"},
+        {"value": "C", "text": "Venezia"},
+        {"value": "D", "text": "Pezo"}
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 9,
+      "text": "Qual'è il contrario di 'PIÙ'?",
+      "options": [
+        {"value": "A", "text": "Male"},
+        {"value": "B", "text": "Triste"},
+        {"value": "C", "text": "Meno"},
+        {"value": "D", "text": "Buono"},
+        {"value": "E", "text": "Bello"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 10,
+      "text": "Qual'è la domanda giusta?",
+      "options": [
+        {"value": "A", "text": "De dove sei?"},
+        {"value": "B", "text": "Di dove sei?"},
+        {"value": "C", "text": "De dove es?"},
+        {"value": "D", "text": "De dove tu é?"},
+        {"value": "E", "text": "Di onde sei?"}
+      ],
+      "correct": "B"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "title": "Quiz - Unità 3",
+  "subtitle": "Teste seus conhecimentos em italiano!",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Scegli l’opzione giusta: “Com’è la tua città?”",
+      "options": [
+        {"value": "A", "text": "Vado tutti i giorni"},
+        {"value": "B", "text": "È bella e pulita"},
+        {"value": "C", "text": "Sono affollate"},
+        {"value": "D", "text": "Non vivo lì"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 2,
+      "text": "Scegli l’opzione giusta:”Cosa c’è da vedere a Roma?”",
+      "options": [
+        {"value": "A", "text": "Ha molte cose da vedere"},
+        {"value": "B", "text": "Grande ma bella da vedere"},
+        {"value": "C", "text": "Ci sono molte cose da vedere"},
+        {"value": "D", "text": "Non ha molte cose da vedere"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 3,
+      "text": "Scegli l’opzione giusta: “Ci sono molte persone che visitano Roma oggi?”",
+      "options": [
+        {"value": "A", "text": "Sì, ci sono molte persone qui oggi."},
+        {"value": "B", "text": "Sì, c’è molte persone qui oggi"},
+        {"value": "C", "text": "Sì, hanno molte persone qui oggi"},
+        {"value": "D", "text": "Sì, ha molte persone qui oggi."}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 4,
+      "text": "Completa la frase “Paola e Luigi … un gatto”",
+      "options": [
+        {"value": "A", "text": "avete"},
+        {"value": "B", "text": "ha"},
+        {"value": "C", "text": "hanno"},
+        {"value": "D", "text": "hai"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 5,
+      "text": "Scegli l’opzione giusta: “Hai paura dei film horror?",
+      "options": [
+        {"value": "A", "text": "Sì, ho paura di questi film."},
+        {"value": "B", "text": "Sì, hai paura di questi film."},
+        {"value": "C", "text": "Sì, ha paura di questi film."},
+        {"value": "D", "text": "Sì, abbiamo paura di questi film."}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 6,
+      "text": "Completa la frase “Roma … molti monumenti”",
+      "options": [
+        {"value": "A", "text": "ha"},
+        {"value": "B", "text": "hai"},
+        {"value": "C", "text": "avete"},
+        {"value": "D", "text": "c’è"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 7,
+      "text": "Completa la frase “A Roma … molti monumenti”",
+      "options": [
+        {"value": "A", "text": "ha"},
+        {"value": "B", "text": "c’è"},
+        {"value": "C", "text": "ci sono"},
+        {"value": "D", "text": "hanno"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 8,
+      "text": "Scegli l’opzione giusta:”Di che colore sono i capelli di Paola?”",
+      "options": [
+        {"value": "A", "text": "Paola hai i capelli biondi."},
+        {"value": "B", "text": "Paola avete i capelli biondi."},
+        {"value": "C", "text": "Paola hanno i capelli biondi."},
+        {"value": "D", "text": "Paola ha i capelli biondi."}
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 9,
+      "text": "Scegli l’opzione giusta:”Quante piazze ci sono a Roma?”",
+      "options": [
+        {"value": "A", "text": "A Roma ci sono molte piazze."},
+        {"value": "B", "text": "A Roma hanno molte piazze."},
+        {"value": "C", "text": "A Roma c’è molte piazze."},
+        {"value": "D", "text": "A Roma ha molte piazze."}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 10,
+      "text": "Scegli la frase corretta",
+      "options": [
+        {"value": "A", "text": "L’Italia c’è un monumento famoso."},
+        {"value": "B", "text": "L’Italia ci sono molti monumenti famosi."},
+        {"value": "C", "text": "L’Italia ha molti monumenti famosi."},
+        {"value": "D", "text": "L’Italia hai molti monumenti famosi."}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 11,
+      "text": "Scegli l’opzione giusta: “Buongiorno, c’è Roberto in ufficio oggi?”",
+      "options": [
+        {"value": "A", "text": "Roberto non c’è oggi."},
+        {"value": "B", "text": "Roberto c’è molto lavoro oggi."},
+        {"value": "C", "text": "Roberto ha oggi."},
+        {"value": "D", "text": "Roberto è di un’altra città"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 12,
+      "text": "Scegli l’opzione giusta: “Tu hai gli occhi azzurri?”",
+      "options": [
+        {"value": "A", "text": "No, io ci sono gli occhi castani."},
+        {"value": "B", "text": "No, io hai gli occhi castani."},
+        {"value": "C", "text": "No, io ho gli occhi castani."},
+        {"value": "D", "text": "No, io sono gli occhi castani."}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 13,
+      "text": "Scegli l’opzione giusta: “Tesoro, cosa c’è a cena?”",
+      "options": [
+        {"value": "A", "text": "Loro hanno gli spaghetti alla bolognese."},
+        {"value": "B", "text": "Loro ci sono gli spaghetti alla bolognese."},
+        {"value": "C", "text": "C’è gli spaghetti alla bolognese."},
+        {"value": "D", "text": "Ci sono gli spaghetti alla bolognese."}
+      ],
+      "correct": "D"
+    },
+    {
+      "id": 14,
+      "text": "Scegli l’opzione giusta:”Che cose ci sono di interessanti nella tua città?”",
+      "options": [
+        {"value": "A", "text": "Nella mia città c’è molte cose interessanti."},
+        {"value": "B", "text": "Nella mia città ha molte cose interessanti."},
+        {"value": "C", "text": "Nella mia città ci sono molte cose interessanti"},
+        {"value": "D", "text": "Nella mia città hanno molte cose interessanti."}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 15,
+      "text": "Completa la frase: “La mia mamma è bassa e … i capelli castani.",
+      "options": [
+        {"value": "A", "text": "hai"},
+        {"value": "B", "text": "avete"},
+        {"value": "C", "text": "hanno"},
+        {"value": "D", "text": "ha"}
+      ],
+      "correct": "D"
+    }
+  ]
+}
