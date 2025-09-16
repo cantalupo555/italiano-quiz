@@ -1,0 +1,171 @@
+{
+  "title": "Quiz - Unità 7",
+  "subtitle": "Teste seus conhecimentos em italiano no restaurante!",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Come si dice in italiano “Eu gostaria de pedir una pizza”?",
+      "options": [
+        {"value": "A", "text": "a) Vorrei chiedere una pizza."},
+        {"value": "B", "text": "b) Vorrei ordinare una pizza."},
+        {"value": "C", "text": "c) Mi piacerebbe una pizza."},
+        {"value": "D", "text": "d) Posso avere una pizza."}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 2,
+      "text": "Qual è la forma corretta per chiedere il conto in un ristorante?",
+      "options": [
+        {"value": "A", "text": "a) Posso avere il menu?"},
+        {"value": "B", "text": "b) Vorrei ordinare il dolce."},
+        {"value": "C", "text": "c) Potrei avere il conto, per favore?"},
+        {"value": "D", "text": "d) Mi porta un caffè?"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 3,
+      "text": "Come si dice in italiano “Eu gostaria de um café”?",
+      "options": [
+        {"value": "A", "text": "a) Mi piace un caffè."},
+        {"value": "B", "text": "b) Vorrei un caffè."},
+        {"value": "C", "text": "c) Voglio un caffè."},
+        {"value": "D", "text": "d) Dammi un caffè."}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 4,
+      "text": "Completa la frase con il condizionale: “Per favore, ___ (dare) un’occhiata al menu.”",
+      "options": [
+        {"value": "A", "text": "a) darebbe"},
+        {"value": "B", "text": "b) daresti"},
+        {"value": "C", "text": "c) dare"},
+        {"value": "D", "text": "d) daremo"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 5,
+      "text": "Qual è la frase corretta per chiedere se ci sono piatti vegetariani?",
+      "options": [
+        {"value": "A", "text": "a) Avete piatti vegetariani?"},
+        {"value": "B", "text": "b) Posso ordinare piatti vegetariani?"},
+        {"value": "C", "text": "c) I piatti vegetariani nel menu?"},
+        {"value": "D", "text": "d) Vorrei piatti vegetariani."}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 6,
+      "text": "Come si dice in italiano “Posso ver o menu dos dessert”?",
+      "options": [
+        {"value": "A", "text": "a) Posso guardare il menù dei dolci?"},
+        {"value": "B", "text": "b) Posso vedere il menù dei dolci?"},
+        {"value": "C", "text": "c) Vorrei vedere il menù dei dolci."},
+        {"value": "D", "text": "d) C’è il dessert?"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 7,
+      "text": "Qual è la forma corretta per chiedere un consiglio sul vino?",
+      "options": [
+        {"value": "A", "text": "a) Quale vino mi consiglia?"},
+        {"value": "B", "text": "b) Posso avere un vino?"},
+        {"value": "C", "text": "c) Mi piace questo vino."},
+        {"value": "D", "text": "d) Consigliami un vino."}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 8,
+      "text": "Come si dice in italiano “Eu gostaria de reservar uma mesa”?",
+      "options": [
+        {"value": "A", "text": "a) Vorrei riservare una tavola."},
+        {"value": "B", "text": "b) Mi piacerebbe una tavola."},
+        {"value": "C", "text": "c) Vorrei prenotare un tavolo."},
+        {"value": "D", "text": "d) Voglio una tavola."}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 9,
+      "text": "Completa la frase con il condizionale: “Per favore, mi ___ (portare) un antipasto.”",
+      "options": [
+        {"value": "A", "text": "a) porteresti"},
+        {"value": "B", "text": "b) porterebbe"},
+        {"value": "C", "text": "c) portando"},
+        {"value": "D", "text": "d) portarebbe"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 10,
+      "text": "Qual è la frase corretta per chiedere una raccomandazione dal cameriere?",
+      "options": [
+        {"value": "A", "text": "a) Cosa mi suggerisce?"},
+        {"value": "B", "text": "b) Posso ordinare questo?"},
+        {"value": "C", "text": "c) Mi porti questo."},
+        {"value": "D", "text": "d) Vorrei questo."}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 11,
+      "text": "Come si dice in italiano “Posso avere una bottiglia d'acqua”?",
+      "options": [
+        {"value": "A", "text": "a) Vorrei una bottiglia d'acqua."},
+        {"value": "B", "text": "b) Mi porta una bottiglia d'acqua?"},
+        {"value": "C", "text": "c) Potrei avere una bottiglia d'acqua?"},
+        {"value": "D", "text": "d) Ho bisogno di una bottiglia d'acqua."}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 12,
+      "text": "Completa la frase con il condizionale: “___ (potere) consigliarmi un piatto?”",
+      "options": [
+        {"value": "A", "text": "a) Potrebbe"},
+        {"value": "B", "text": "b) Potreste"},
+        {"value": "C", "text": "c) Potresti"},
+        {"value": "D", "text": "d) Potrei"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 13,
+      "text": "Qual è la forma corretta per chiedere il conto separato?",
+      "options": [
+        {"value": "A", "text": "a) Possiamo avere il conto diviso?"},
+        {"value": "B", "text": "b) Potremmo avere il conto separato?"},
+        {"value": "C", "text": "c) Vorrei il conto."},
+        {"value": "D", "text": "d) Ci porta il conto?"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 14,
+      "text": "Completa la frase con il condizionale in modo informale: “Per favore, mi ___ (portare) un bicchiere d'acqua?”",
+      "options": [
+        {"value": "A", "text": "a) portereste"},
+        {"value": "B", "text": "b) portate"},
+        {"value": "C", "text": "c) porteresti"},
+        {"value": "D", "text": "d) porterebbe"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 15,
+      "text": "Completa la frase con il condizionale in modo formale: “Mi ___ (portare) il conto, per favore?”",
+      "options": [
+        {"value": "A", "text": "a) Porterebbe"},
+        {"value": "B", "text": "b) Portarebbe"},
+        {"value": "C", "text": "c) Portereste"},
+        {"value": "D", "text": "d) Porterebbero"}
+      ],
+      "correct": "A"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "title": "Quiz - Unità 8",
+  "subtitle": "Teste seus conhecimentos no passato prossimo!",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Qual è la forma corretta del verbo “mangiare” nella prima persona singolare, al passato prossimo?",
+      "options": [
+        {"value": "A", "text": "A) ha mangiato"},
+        {"value": "B", "text": "B) ho mangiato"},
+        {"value": "C", "text": "C) stato mangiato"},
+        {"value": "D", "text": "D) ha mangiare"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 2,
+      "text": "Qual è la forma corretta del verbo “bere” nella prima persona singolare, al passato prossimo?",
+      "options": [
+        {"value": "A", "text": "A) ha bevuto"},
+        {"value": "B", "text": "B) ho bevuto"},
+        {"value": "C", "text": "C) abbiamo bevuto"},
+        {"value": "D", "text": "D) sono bevuto"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 3,
+      "text": "Quale verbo è coniugato correttamente nel passato prossimo? “Loro (leggere)”.",
+      "options": [
+        {"value": "A", "text": "A) hanno letto"},
+        {"value": "B", "text": "B) hanno legguto"},
+        {"value": "C", "text": "C) hanno leggete"},
+        {"value": "D", "text": "D) avete letto"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 4,
+      "text": "Qual è forma corretta del verbo “scrivere” nella terza persona singolare, al passato prossimo?",
+      "options": [
+        {"value": "A", "text": "A) ha scritto"},
+        {"value": "B", "text": "B) hanno scritto"},
+        {"value": "C", "text": "C) aveva scritto"},
+        {"value": "D", "text": "D) ho scritto"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 5,
+      "text": "Qual è la forma corretta del verbo “vedere” nella prima persona plurale, al passato prossimo?",
+      "options": [
+        {"value": "A", "text": "A) hanno visto"},
+        {"value": "B", "text": "B) abbiamo visto"},
+        {"value": "C", "text": "C) siamo visto"},
+        {"value": "D", "text": "D) avete visto"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 6,
+      "text": "Quale verbo è coniugato correttamente nel passato prossimo? “Io (fare)”.",
+      "options": [
+        {"value": "A", "text": "A) ho fatto"},
+        {"value": "B", "text": "B) è fatto"},
+        {"value": "C", "text": "C) ha fatto"},
+        {"value": "D", "text": "D) ho faciuto"}
+      ],
+      "correct": "A"
+    },
+    {
+      "id": 7,
+      "text": "Quale forma corretta del verbo “andare” nella seconda persona singolare, al passato prossimo?",
+      "options": [
+        {"value": "A", "text": "A) hai andato"},
+        {"value": "B", "text": "B) sei andato"},
+        {"value": "C", "text": "C) ha andato"},
+        {"value": "D", "text": "D) è andato"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 8,
+      "text": "Qual è la forma corretta del verbo “dormire” nella prima persona singolare, al passato prossimo?",
+      "options": [
+        {"value": "A", "text": "A) sono dormito"},
+        {"value": "B", "text": "B) ho dormito"},
+        {"value": "C", "text": "C) ho dormuto"},
+        {"value": "D", "text": "D) è dormito"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 9,
+      "text": "Quale verbo è coniugato correttamente nel passato prossimo? “Tu (prendere)”.",
+      "options": [
+        {"value": "A", "text": "A) avevi preso"},
+        {"value": "B", "text": "B) hai preso"},
+        {"value": "C", "text": "C) sei preso"},
+        {"value": "D", "text": "D) hai presuto"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 10,
+      "text": "Quale forma corretta del verbo “leggere” nella terza persona plurale?",
+      "options": [
+        {"value": "A", "text": "A) hanno leggiuto"},
+        {"value": "B", "text": "B) hanno letto"},
+        {"value": "C", "text": "C) ha letto"},
+        {"value": "D", "text": "D) ha leggiuto"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 11,
+      "text": "Qual è la forma corretta del verbo “capire” nella prima persona singolare, al passato prossimo?",
+      "options": [
+        {"value": "A", "text": "A) aveva capito"},
+        {"value": "B", "text": "B) ho capito"},
+        {"value": "C", "text": "C) ho caputo"},
+        {"value": "D", "text": "D) ha capito"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 12,
+      "text": "Quale verbo è coniugato correttamente nel passato prossimo? “Noi (vedere)”.",
+      "options": [
+        {"value": "A", "text": "A) avete veduto"},
+        {"value": "B", "text": "B) hanno visto"},
+        {"value": "C", "text": "C) abbiamo visto"},
+        {"value": "D", "text": "D) siamo veduto"}
+      ],
+      "correct": "C"
+    },
+    {
+      "id": 13,
+      "text": "Quale forma corretta del verbo “essere” nella prima persona plurale, al passato prossimo?",
+      "options": [
+        {"value": "A", "text": "A) siami stati"},
+        {"value": "B", "text": "B) siamo stati"},
+        {"value": "C", "text": "C) siamo stato"},
+        {"value": "D", "text": "D) abbiamo stati"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 14,
+      "text": "Qual è la forma corretta del verbo “parlare” nella prima persona singolare, al passato prossimo?",
+      "options": [
+        {"value": "A", "text": "A) sono parlato"},
+        {"value": "B", "text": "B) ho parlato"},
+        {"value": "C", "text": "C) aveva parlato"},
+        {"value": "D", "text": "D) hanno parlato"}
+      ],
+      "correct": "B"
+    },
+    {
+      "id": 15,
+      "text": "Quale verbo è coniugato correttamente nel passato prossimo? “Voi (fare)”.",
+      "options": [
+        {"value": "A", "text": "A) avete faciuto"},
+        {"value": "B", "text": "B) hanno fatto"},
+        {"value": "C", "text": "C) avete facere"},
+        {"value": "D", "text": "D) avete fatto"}
+      ],
+      "correct": "D"
+    }
+  ]
+}
